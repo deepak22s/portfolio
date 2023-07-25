@@ -207,7 +207,7 @@ body {
   /* Adjust the animation duration and delay as per your preference */
   .animation-text {
     animation: revealText 1s ease-out both;
-    letter-spacing: -3px;
+    letter-spacing: -5px;
   }
   
   /* Adjust the font size and other styles as per your preference */
