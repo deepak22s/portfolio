@@ -1,0 +1,219 @@
+.dpktittle{
+    font-weight: 1000;
+    font-style: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: aliceblue;
+    font-weight: 900;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+h4{
+    
+    color: aliceblue;
+    font-style: italic;
+    
+}
+.home-sec{
+    
+    display:center;
+    align-items: end;
+    float: middle;
+    vertical-align: middle;
+    background-image:url("Image\ Background\ Dark\ Green\ Phone\ Wallpaper.png") ;
+    background: cover;
+    height: 100vh;
+}
+.abt-me{
+    background-color: rgb(228, 235, 225);
+}
+.moreabm{
+    height: 2.5rem;
+    width: 9rem;
+    padding: 5px;
+    font-style: oblique;
+    border-radius: 15px;
+    color: aliceblue;
+    background-color: rgb(3, 39, 39);
+    border-width: 2px;
+    margin-top: 50px;
+    box-shadow: 10px;
+}
+.avatar-img{
+    height: 400px;
+    width: 400px;
+}
+.abt-me-heading{
+    color: rgb(9, 9, 9);
+    font-weight: 700;
+    font-style: bold;
+    font-family: Impact' 'sans-serif;
+    animation-direction: normal;
+    animation-duration: 2s;
+}
+.par-1{
+    font-size: 24px;
+    font-weight: 300;
+    color: rgb(11, 29, 45);
+
+}
+.card-image{
+    height: 200px;
+    width: 200px;
+    border-width:1px;
+    border-color: rgb(14, 23, 20);
+    border-radius: 80%;
+    background-color: azure;
+    border-color: black;
+}
+.services-sec{
+ background:linear-gradient(to right, hsl(217, 29%, 78%), hsl(227, 94%, 56%));
+  align-items: center;
+}
+.card-heading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(7, 7, 7);
+}
+.card-para{
+    font-size: 19px;
+    font-weight: 300;
+    color: rgb(231, 232, 234);
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-1{
+    background-color: aliceblue;
+}
+.resto-page{
+    height: 70vh;
+}
+.live-site-btn{
+    height: 2.5rem;
+    width: 9rem;
+    padding: 5px;
+    font-style: oblique;
+    border-radius: 15px;
+    color: rgb(237, 238, 238);
+    background-color: rgb(12, 53, 84);
+    border-width: 2px;
+    margin-top: 50px;
+    box-shadow: 10px; 
+}
+.projects-sec{
+    background:linear-gradient(to right,rgb(149, 129, 129),rgb(229, 236, 236),rgb(242, 212, 190));
+}
+.at{
+    color: white;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  .card-1{
+    color: black;
+  }
+  
+  .form-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button-1 {
+    padding: 10px 20px;
+    background-color: #52c65a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.button-1:hover {
+    background-color: #035103;
+  }
+  
+  .icon{
+    font-size: 35px;
+    color: #d0b200;
+  }
+  .follow-us-section {
+    background-color: white;
+  }
+  .follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+  }
+  footer{
+    background-color: rgb(163, 139, 94);
+  }
+
+  @keyframes revealText {
+    from {
+      visibility: hidden;
+    }
+    to {
+      visibility: visible;
+    }
+  }
+  
+  /* Adjust the animation duration and delay as per your preference */
+  .animation-text {
+    animation: revealText 1s ease-out both;
+    letter-spacing: -3px;
+  }
+  
+  /* Adjust the font size and other styles as per your preference */
+  .animation-text span {
+    display: inline-block;
+    animation: revealText 1s ease-out both;
+    animation-delay: calc(0.1s * var(--index)); /* Delay each letter's appearance */
+  }
+    
